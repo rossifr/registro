@@ -1,3 +1,13 @@
+set nowere=
+:: get prerequisites from nowere
+copy %NOWERE%\gawk.exe .
+copy %NOWERE%\libgmp-10.dll .
+copy %NOWERE%\libiconv2.dll .
+copy %NOWERE%\libintl3.dll .
+copy %NOWERE%\libmpfr-4.dll .
+copy %NOWERE%\libncurses5.dll .
+copy %NOWERE%\libreadline6.dll .
+
 :: start execution in src
 copy registro-user1.txt registro.txt
 gawk -f registro.awk registro.txt > registro2.htm
