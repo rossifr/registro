@@ -1,16 +1,16 @@
 :: start execution in src
-copy registro-vale.txt registro.txt
+copy registro-user1.txt registro.txt
 gawk -f registro.awk registro.txt > registro2.htm
 type registro1.htm  > registro.htm
 type registro2.htm >> registro.htm
 type registro3.htm >> registro.htm
-copy registro.htm ..\registro-vale.htm
+copy registro.htm ..\registro-user1.htm
 
-copy registro-vaia.txt registro.txt
+copy registro-user2.txt registro.txt
 gawk -f registro.awk registro.txt > registro2.htm
 type registro1.htm  > registro.htm
 type registro2.htm >> registro.htm
 type registro3.htm >> registro.htm
-copy registro.htm ..\registro-vaia.htm
+copy registro.htm ..\registro-user2.htm
 
 pause
