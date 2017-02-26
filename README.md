@@ -1,4 +1,4 @@
 # registro
 Registro scolastico.
-Tyr to separate Information trom Transformation and Result
-Make hypotesis evident
+Tyr to separate Information trom Transformation and Result. 
+Make hypotesis evident. 
