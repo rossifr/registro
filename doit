@@ -12,3 +12,6 @@ cat registro1.htm  > registro.htm
 cat registro2.htm >> registro.htm
 cat registro3.htm >> registro.htm
 cp registro.htm registro-user2.htm
+cp registro-user1.htm /storage/sdcard0/Download/registro-user1.htm
+cp registro-user2.htm /storage/sdcard0/Download/registro-user2.htm
+
