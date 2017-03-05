@@ -12,6 +12,17 @@ cat registro1.htm  > registro.htm
 cat registro2.htm >> registro.htm
 cat registro3.htm >> registro.htm
 cp registro.htm registro-user2.htm
+
+if [ -d /storage/sdcard0/Download/ ]
+then
+echo "/storage/sdcard0/Download/ exists."
 cp registro-user1.htm /storage/sdcard0/Download/registro-user1.htm
 cp registro-user2.htm /storage/sdcard0/Download/registro-user2.htm
+fi
 
+if [ -d /root/Scrivania/.registro/ ]
+then
+echo "/root/Scrivania/.registro/ exists."
+cp registro-user1.htm /root/Scrivania/.registro/registro-s1.htm
+cp registro-user2.htm /root/Scrivania/.registro/registro-s4.htm
+fi
