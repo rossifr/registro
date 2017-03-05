@@ -1,8 +1,8 @@
 # scarica il repo
-# attenzione a https
 git clone https://github.com/rossifr/registro
 # per fare push
 git remote add upstream https://github.com/rossifr/registro.git
+git remote set-url origin https://github.com/rossifr/registro.git
 # forse inutile
 git add .
 #
