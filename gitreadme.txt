@@ -11,6 +11,6 @@ git config --global user.name "rossifr"
 # committa le modifiche
 git commit .
 # passa le modifiche su github
-git config --global http.sslverify false
+# git config --global http.sslverify false
 git push 
 
