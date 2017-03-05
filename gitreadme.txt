@@ -1,4 +1,5 @@
 # scarica il repo
+git pull
 git status
 git config --list
 git clone https://github.com/rossifr/registro
