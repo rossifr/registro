@@ -2,7 +2,7 @@
 git pull
 git status
 git config --list
-git clone https://github.com/rossifr/registro
+git clone https://github.com/rossifr/registro.git
 # per fare push
 git remote add upstream https://github.com/rossifr/registro.git
 git remote set-url origin https://github.com/rossifr/registro.git
