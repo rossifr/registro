@@ -4,7 +4,19 @@ git clone https://github.com/rossifr/registro.git
 # scarica il repo se c'e' gia'
 git pull
 
+# edita edita ...
 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+# add e committa
+git commit -a -m "test"
+
+# invia su
+git push
+
+
+# poubelle
 git status
 git config --list
 git clone https://github.com/rossifr/registro.git
