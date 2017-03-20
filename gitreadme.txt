@@ -1,5 +1,10 @@
-# scarica il repo
+# scarica il repo se non c'e'
+git clone https://github.com/rossifr/registro.git
+
+# scarica il repo se c'e' gia'
 git pull
+
+
 git status
 git config --list
 git clone https://github.com/rossifr/registro.git
