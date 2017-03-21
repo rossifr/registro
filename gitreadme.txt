@@ -17,8 +17,11 @@ git push
 
 git branch week
 git checout week
+oppure git checkout -b week
 git commit -a -m 'bababa'
 git checkout master
+git merge hotfix
+git branch -d hotfix
 ...
 # poubelle
 git status
