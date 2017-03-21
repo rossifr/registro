@@ -15,7 +15,11 @@ git commit -a -m "test"
 # invia su
 git push
 
-
+git branch week
+git checout week
+git commit -a -m 'bababa'
+git checkout master
+...
 # poubelle
 git status
 git config --list
