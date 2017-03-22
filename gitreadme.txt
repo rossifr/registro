@@ -14,8 +14,7 @@ git commit -a -m "test"
 
 # invia su
 git push
-
-
+Vediamo...
 # poubelle
 git status
 git config --list
