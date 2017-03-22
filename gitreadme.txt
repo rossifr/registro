@@ -15,13 +15,16 @@ git commit -a -m "test"
 # invia su
 git push
 
-git branch week
-git checout week
-oppure git checkout -b week
-git commit -a -m 'bababa'
+git branch b
+git checkout b
+oppure git checkout -b b
+git commit -a -m 'branch b'
 git checkout master
-git merge hotfix
-git branch -d hotfix
+git merge unaltrobranch
+git branch -d unaltrobranch
+
+# pusha nel branch b remoto
+git push origin b
 ...
 # poubelle
 git status
