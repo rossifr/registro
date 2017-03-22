@@ -23,6 +23,8 @@ git checkout master
 git merge unaltrobranch
 git branch -d unaltrobranch
 
+# fetcha il branch b remoto
+git fetch origin b
 # pusha nel branch b remoto
 git push origin b
 ...
