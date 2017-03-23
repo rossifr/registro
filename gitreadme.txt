@@ -1,8 +1,10 @@
 # scarica il repo se non c'e'
 git clone https://github.com/rossifr/registro.git
-
-# scarica il repo se c'e' gia'
 git pull
+
+si sposta di branch
+cd registro
+git checkout b
 
 # edita edita ...
 
