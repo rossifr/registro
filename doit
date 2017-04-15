@@ -1,4 +1,6 @@
 #!/bin/sh
+
+#transform week from text to html
 cp registro-user1.txt registro.txt
 gawk -f registro.awk registro.txt > registro2.htm
 cat registro1.htm  > registro.htm
@@ -13,6 +15,7 @@ cat registro2.htm >> registro.htm
 cat registro3.htm >> registro.htm
 cp registro.htm registro-user2.htm
 
+# try to install the pages
 if [ -d /storage/sdcard0/Download/ ]
 then
 echo "We are on the yellow!"
